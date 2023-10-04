@@ -1,0 +1,42 @@
+h1 {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(209, 255, 255);
+    width: 680px;
+}
+
+ol {
+    color: rgb(227, 216, 233);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    background-color: rgb(233, 113, 177);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list3 {
+    text-align: center;
+}
+
+.list4 {
+    text-align: right;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+p {
+    margin: 0%;
+}
+
+.line {
+    text-decoration: underline;
+}

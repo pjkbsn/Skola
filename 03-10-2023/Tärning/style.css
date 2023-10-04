@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    border: 1px black solid;
+    border-radius: 5%;
+    width: 25rem;
+    height: 25rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.dots-1 {
+    padding-right: 1rem;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dots-2 {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.dots-3 {
+    grid-column: 2;
+    grid-row: 4;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.dots-4 {
+    grid-column: 4;
+    grid-row: 2;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.dots-5 {
+    grid-column: 4;
+    grid-row: 3;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+
+.dots-6 {
+    grid-column: 4;
+    grid-row: 4;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+.dices {
+    width: auto;
+    height: 100px;
+    margin-top: 1rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-auto-rows: 120px;
+}
+
+.dices>* {
+    border: black solid 1px;
+    border-radius: 5%;
+    width: 100px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.dice-6 {
+    gap: .2rem;
+}
+
+.dice-1dot {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.dice-2dot {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.dice-3dot {
+    grid-column: 2;
+    grid-row: 4;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.dice-centerdot {
+    grid-column: 3;
+    grid-row: 3;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.dice-4dot {
+    grid-column: 4;
+    grid-row: 2;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.dice-5dot {
+    grid-column: 4;
+    grid-row: 3;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.dice-6dot {
+    grid-column: 4;
+    grid-row: 4;
+    background-color: black;
+    border-radius: 50%;
+}

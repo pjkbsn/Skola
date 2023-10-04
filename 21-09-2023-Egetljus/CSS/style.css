@@ -1,0 +1,55 @@
+body {
+    background-color: green;
+    display: flex;
+}
+
+main {
+    /* border: 1px solid black; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    max-width: fit-content;
+    /* height: 10rem; */
+    padding: 0;
+    margin: -2em;
+    margin-left: 30%;
+    margin-top: 16%;
+}
+
+p {
+    margin-top: -1.5em;
+}
+
+.container {
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 1rem;
+    width: 11rem;
+    height: 31rem;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+.item {
+    margin: 1rem;
+    width: 7rem;
+    height: 7rem;
+}
+
+.container>:first-child {
+    border: 1rem solid rgb(235, 60, 60);
+    background-color: red;
+    border-radius: 50%;
+}
+
+.container>:nth-child(2) {
+    border: 1rem solid rgb(223, 223, 67);
+    background: yellow;
+    border-radius: 50%;
+}
+
+.container>:last-child {
+    border: 1rem rgb(1, 83, 1) solid;
+    background-color: green;
+    border-radius: 50%;
+}

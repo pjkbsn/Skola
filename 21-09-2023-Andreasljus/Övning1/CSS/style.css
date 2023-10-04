@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main > *{} -- påverkar allt i main,  */
+
+main>* {
+    color: white;
+    letter-spacing: .2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main h1 {
+    font-size: 3rem;
+}
+
+main p1 {
+    font-size: 2rem;
+}
+
+.container {
+    border-radius: 1rem;
+    width: 15rem;
+    height: auto;
+    background-color: black;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.item {
+    margin: 0.5rem;
+    height: 10rem;
+    background-color: antiquewhite;
+    border-radius: 50%;
+}
+
+.item:first-child {
+    background-color: #ff0000;
+    border: solid 10px rgb(130, 0, 0);
+}
+
+.item:nth-child(2) {
+    background-color: yellow;
+    border: solid 10px rgb(116, 116, 0);
+}
+
+.item:last-child {
+    background-color: green;
+    border: solid 10px rgb(16, 65, 16);
+}
