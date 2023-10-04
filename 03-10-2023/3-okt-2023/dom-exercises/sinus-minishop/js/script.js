@@ -28,12 +28,38 @@ function changeElement() {
     element.innerText = "Start";
 } */
 
+/////////////
+////////**3.** Byt *namn* på *Contact* till *Mail Us*.
+////////////
 
 
-function changeElement() {
+/* function changeElement() {
     let element = document.querySelectorAll('a')[2]
     element.innerText = "Mail us"
 }
 
 changeElement();
+ */
 
+
+/////////////
+////////**4.** Byt ut informationen om *Sinus Hoodie  - Fire*.
+////////////
+
+
+/* function changeElement() {
+    let element = document.querySelector(".art-2 h3")
+    let element2 = document.querySelector(".art-2 h2")
+    element.innerText = "Flame"
+    element2.innerText = "Nose Hoodie"
+}
+changeElement(); */
+
+
+/////////////
+////////**5.** Byt *bakgrundsfärg* och *text* på en knapp.
+////////////
+
+function changeButton() {
+
+}
