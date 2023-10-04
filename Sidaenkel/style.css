@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(58, 58, 58);
+}
+
+h1 {
+    /* border: 2px solid black; */
+    color: rgb(65, 65, 97);
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.border1 {
+    border: 1px solid black;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+.texth2 {
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.text1 {
+    /* float: left; */
+    margin-left: 20%;
+}
+
+.text2 {
+    /* float: right; */
+    margin-left: 35%;
+}
+
+.left {
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 10%;
+}
+
+.llist {
+    float: left;
+    list-style: none;
+}
+
+.left li {
+    width: fit-content;
+    height: 5.5em;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.left img {
+    width: 70%;
+    height: auto;
+    /* border: 2px solid black; */
+}
+
+.right {
+    width: auto;
+    /* border: 2px solid black;  */
+    float: right;
+    margin-right: 10%;
+}
+
+.rlist {
+    float: left;
+    list-style: none;
+    padding: 1em;
+}
+
+.right li {
+    width: fit-content;
+    height: 5.5em;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+
+.right img {
+    width: 70%;
+    /* border: 2px solid black; */
+}
+
+.del2 {
+    display: flex;
+    margin-top: 20%;
+}
+
+/* .lflex {
+    float: left;
+} */
+
+.text3 {
+    border: 2px solid black;
+    width: fit-content;
+}
+
+/* .rflex {
+    float: right;
+} */
+
+.text4 {
+    border: 2px solid black;
+    width: fit-content;
+    margin-left: 60%;
+}

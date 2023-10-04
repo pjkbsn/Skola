@@ -1,0 +1,41 @@
+body {
+    background-color: grey;
+}
+
+.brevborder {
+    border: 1px solid black;
+    background-color: bisque;
+    min-width: 40em;
+    max-width: 40em;
+    min-height: 25em;
+    max-height: 25em;
+    margin: 20%;
+    margin-left: 38%;
+    margin-top: 16%; 
+}
+
+.returadress {
+    line-height: 1px;
+    width: fit-content;
+    height: 5em;
+    margin-left: 1em;
+    margin-top: .5em;
+    float: left;
+}
+
+.adress {
+    margin-left: 40%;
+    margin-top: 25%;
+    padding: 1em;
+    width: fit-content;
+    height: 5em;
+    line-height: 1px;
+}
+
+.gustaf img {
+    display: inline-block;
+    width: 5em;
+    margin-right: 1em;
+    margin-top: 1em;
+    float: right;
+}

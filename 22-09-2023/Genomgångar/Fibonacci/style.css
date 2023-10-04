@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.fibonacci {
+    display: flex;
+    min-height: 5em;
+    width: 90vw;
+    padding: 1em;
+}
+
+.fibonacci>* {
+    color: white;
+    background-color: #640000;
+    padding: .5em;
+    flex-grow: 1;
+    flex-basis: 0px;
+}
+
+.fibonacci> :nth-child(2) {
+    background-color: #641400;
+}
+
+.fibonacci> :nth-child(3) {
+    background-color: #642800;
+}
+
+.fibonacci> :nth-child(4) {
+    background-color: #643C00;
+    flex-grow: 2;
+}
+
+.fibonacci> :nth-child(5) {
+    background-color: #634F00;
+    flex-grow: 3;
+}
+
+.fibonacci> :nth-child(6) {
+    background-color: #646400;
+    flex-grow: 5;
+}
+
+.fibonacci> :nth-child(7) {
+    background-color: #647800;
+    flex-grow: 8;
+}
+
+.fibonacci> :nth-child(8) {
+    background-color: #648C00;
+    flex-grow: 13;
+}
+
+.fibonacci> :nth-child(9) {
+    background-color: #65A100;
+    flex-grow: 21;
+}
+
+.fibonacci> :nth-child(10) {
+    background-color: #65B401;
+    flex-grow: 34;
+}
+
+.fibonacci.reverse {
+    flex-direction: row-reverse;
+}

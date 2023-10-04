@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    /* flex-direction: column; */
+    /* main-axis är column */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.menu-easy {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border: 1px solid white;
+    width: 90vw;
+}
+
+.menu-easy>* {
+    background-color: blueviolet;
+    flex-grow: 1;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.menu-easy> :hover {
+    background-color: aquamarine;
+    color: white;
+}

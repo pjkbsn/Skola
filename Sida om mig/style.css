@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+
+/* CSS-stilar för att placera innehåll horisontellt */
+.content {
+    display: flex;
+    align-items: center;
+}
+
+/* Styla listan som tidigare */
+.list {
+    list-style-type: none;
+}
+
+/* Styla listelementen som tidigare */
+.list li {
+    margin-bottom: 5px;
+    color: grey;
+    padding: 10px;
+}
+
+/* Styla bilder om du vill ändra deras storlek eller placering */
+.content img {
+    width: 300px;
+    /* Anpassa storleken efter dina behov */
+    margin-left: 50px;
+    /* Lägg till marginal till höger om bilden */
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    color: grey;
+    font-family: Teko;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: grey;
+
+}
+
+.tjobb{
+    color: white;
+}

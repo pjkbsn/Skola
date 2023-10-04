@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.menu-hard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    list-style: none;
+}
+
+ul li img {
+    height: 3em;
+    width: 3em;
+}
+
+
+ul li :first-child {
+    display: flex;
+
+}
+
+ul li :nth-child(5) {}

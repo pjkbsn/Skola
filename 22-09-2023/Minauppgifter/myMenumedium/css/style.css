@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(28, 26, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: rgb(245, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+
+.myMenumedium {
+    display: flex;
+    margin-right: 1rem;
+    list-style: none;
+    letter-spacing: .2rem;
+    width: fit-content;
+}
+
+li {
+    color: rgb(202, 202, 202);
+    margin-right: 3rem;
+}
+
+.myMenumedium> :hover {
+    background-color: black;
+}

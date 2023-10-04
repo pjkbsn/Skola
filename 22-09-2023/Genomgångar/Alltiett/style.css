@@ -1,0 +1,154 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #E7E2E2;
+	display: flex;
+	flex-direction: column;  /* main-axis är column */
+	align-items: center; /* row är cross-axis */
+}
+
+.japan-flag {
+	background-color: white;
+	width: 60vw;
+	height: 35vw;
+	display: flex;
+	flex-direction: row;  /* main-axis är row*/
+	justify-content: center;  /* centrerar längs main-axis */
+	align-items: center;  /* cross-axis, column */
+}
+
+/* Vi väljer ut: alla HTML-element med klassen "circle", som har ett element med klassen "japan-flag" som PARENT. */
+.japan-flag > .circle {
+	background-color: #C61D0A;
+	width: 20vw;
+	height: 20vw;
+	border-radius: 50%;
+}
+
+/* Vi väljer ut: alla HTML-element med klassen "circle", som har ett element med klassen "japan-flag" som ANCESTOR. */
+/* .japan-flag .circle */
+
+
+/* Vi väljer ut: alla HTML-element med klassen "circle". */
+/* .circle */
+
+/* Specificitet: kategorierna id, class, element */
+/* Specificitet: 010 */
+.menu-easy {
+	display: flex;
+	flex-direction: row;
+	margin-top: 3rem;
+	list-style: none;
+	padding: 0;
+	border: 1px solid black;
+	width: 90vw;
+}
+/* Specificitet: 011 */
+.menu-easy > li {
+	background-color: #E4E4E4;
+	flex-grow: 1;
+	padding: 1em 0;
+	text-align: center;
+}
+/* Specificitet: 020 */
+.menu-easy > :hover {
+	background-color: #7E7E7E;
+	color: white;
+}
+
+/* Annan styling för menu HARD */
+.menu-hard {
+	display: flex;
+	flex-direction: row;
+	margin-top: 3rem;
+	list-style: none;
+	padding: 0;
+	border: 1px solid black;
+	width: 90vw;
+}
+.menu-hard > li {
+	background-color: #E4E4E4;
+/* 	flex-grow: 1; */
+	padding: 1em 1em;
+	text-align: center;
+}
+/* Specificitet: 020 */
+.menu-hard > .option:hover {
+	background-color: #7E7E7E;
+	color: white;
+}
+.menu-hard > .logo {
+	padding: 0;
+	flex-grow: 1;
+	display: grid;
+}
+.menu-hard > .logo > img {
+	justify-self: start;
+	height: 3em;
+}
+.menu-hard > .login {
+	flex-grow: 1;
+	display: grid;
+}
+.menu-hard .login-button {
+	justify-self: end;
+	display: block;
+}
+
+
+/* Flexbox Fibonacci */
+.fibonacci {
+	display: flex;
+	width: 90vw;
+	min-height: 5em; /* EM relaterar till aktuell teckenstorlek */
+	margin-top: 1rem;
+	margin-bottom: 1rem;  /* relaterar till teckenstorleken i BODY */
+}
+.fibonacci.reverse {
+	flex-direction: row-reverse;
+}
+
+.fibonacci > * {
+	color: white;
+	background-color: rgb(100, 0, 0); /* #640000 */
+	padding: 0.5em;
+	flex-grow: 1;
+	flex-basis: 0px;
+}
+.fibonacci > :nth-child(2) {
+	background-color: #641400;
+}
+.fibonacci > :nth-child(3) {
+	background-color: #642800;
+}
+.fibonacci > :nth-child(4) {
+	background-color: #643C00;
+	flex-grow: 2;
+}
+.fibonacci > :nth-child(5) {
+	background-color: #634F00;
+	flex-grow: 3;
+}
+.fibonacci > :nth-child(6) {
+	background-color: #646400;
+	flex-grow: 5;
+}
+.fibonacci > :nth-child(7) {
+	background-color: #647800;
+	flex-grow: 8;
+}
+.fibonacci > :nth-child(8) {
+	background-color: #648C00;
+	flex-grow: 13;
+}
+.fibonacci > :nth-child(9) {
+	background-color: #65A100;
+	flex-grow: 21;
+}
+.fibonacci > :nth-child(10) {
+	background-color: #65B401;
+	flex-grow: 34;
+}

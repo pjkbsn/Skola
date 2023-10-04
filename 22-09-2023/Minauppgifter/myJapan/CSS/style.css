@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    /* border: 2px solid black; */
+    width: 40rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: 10px 15px 5px rgb(87, 85, 85);
+}
+
+.cirkel {
+    /* border: 2px solid black; */
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    background-color: red;
+
+}

@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+menu ul {
+    display: flex;
+    list-style: none;
+}
+
+ul>* {
+    text-align: center;
+    flex-grow: 1;
+    padding: 1em 0;
+}
+
+menu ul li {
+    padding: .5rem;
+    background-color: rgb(202, 197, 197);
+}
+
+menu ul li a {
+    color: white;
+}
+
+menu :hover {
+    border: 1px solid aqua;
+    color: grey;
+    background-color: aqua;
+    border: none;
+}

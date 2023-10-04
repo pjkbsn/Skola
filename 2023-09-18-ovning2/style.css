@@ -1,0 +1,57 @@
+body {
+    background-image: url("./Bilder/2e60b656-tp81128.jpg")
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+.border {
+    display: flex;
+    border: 2px;
+    background-image: url(./Bilder/37865-2.jpg);
+    width: 700px;
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 50px rgb(63, 63, 63);
+}
+
+.returadress {
+    margin: -3em;
+    padding-left: 4em;
+    padding-top: 4em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+}
+
+.adress {
+    padding-left: 6em;
+    padding-top: 10em;
+}
+
+.fri img {
+    width: 120px;
+    height: auto;
+    padding-left: 7em;
+    padding-top: 1.5em;
+}
+
+
+p {
+    margin: 1px;
+    font-family: Bebas Neue;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration-line: underline;
+    opacity: 70%;
+}
+
+.name {
+    text-decoration: none;
+}
