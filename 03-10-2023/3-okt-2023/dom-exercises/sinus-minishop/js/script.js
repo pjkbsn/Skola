@@ -61,5 +61,16 @@ changeElement(); */
 ////////////
 
 function changeButton() {
+    let btn = document.querySelectorAll("button")[1];
+    btn.textContent = "KNAPP";
+    btn.style.backgroundColor = "blue";
+}
+changeButton();
+
+/////////////
+////////**6.** Byt bakgrundsfärg på någon av produkterna.
+////////////
+
+function productBackgroundColor() {
 
 }
