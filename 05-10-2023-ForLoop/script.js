@@ -65,10 +65,16 @@ for (let i = 0; i < num; i++) {
 }
 
 // 6. loopa ut föjande array och skriv ut det på sidan
+// Kolla igenom koden och lär dig.
 
+let bodyPage = document.querySelector("body");
+let newPage = document.createElement("h1");
 const frukter = ["äpple", "banan", "apelsin", "jordgubbe", "kiwi"];
 
-
+for (let i = 0; i < frukter.length; i++) {
+    newPage.textContent = `${newPage.textContent} ${frukter[i]}`;
+    bodyPage.appendChild(newPage);
+}
 
 
 

@@ -163,20 +163,44 @@ console.log(str.substring(27))
 
 //Försök lösa utan funktion
 
-function biggerThan(num) {
-    return num >= 6;
-}
 
-console.log(numArray = [23, 45, 5, 62, 1, 21, 3, 54].filter(biggerThan));
+console.log(numArray = [23, 45, 5, 62, 1, 21, 3, 54].filter(num => num >= 6));
 
 // 24. I arrayen ovan, filtera fram alla nummer under 5.
 
-function lesserThan(num) {
-    return num <= 4;
-}
 
-console.log(numArray = [23, 45, 5, 62, 1, 21, 3, 54].filter(lesserThan));
 
+console.log(numArray = [23, 45, 5, 62, 1, 21, 3, 54].filter(num => num <= 6));
+
+
+// 25. Skriv ut alla namn som är 18 år eller över från arrayen nedan.
+
+let persons = [
+    {
+        name: "Felicia",
+        age: 12
+    },
+    {
+        name: "Pelle",
+        age: 20
+    },
+    {
+        name: "Peter",
+        age: 59
+    },
+    {
+        name: "Anna",
+        age: 32
+    },
+    {
+        name: "Jocke",
+        age: 18
+    },
+    {
+        name: "Ella",
+        age: 3
+    }
+]
 
 
 
