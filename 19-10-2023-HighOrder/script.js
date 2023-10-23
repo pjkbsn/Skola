@@ -104,7 +104,7 @@ console.log(countries);
 let continents = travelGuide.map((continent) => continent.continent);
 console.log(continents);
 //3.
-let allOfEurope = travelGuide.filter((europe) => europe.continent == 'Europa');
+let allOfEurope = travelGuide.filter((europe) => europe.continent == 'Europa').map((europe) => europe.name);
 console.log(allOfEurope);
 //4.
 
@@ -122,7 +122,7 @@ function searchCountryOrContinent(searchTerm) {
 
 console.log(searchCountryOrContinent('Amerika'));
 
-//////Övning 7- /////
+//////Övning 8- /////
 //Skapa en ny array med endast e-mailen från franska personer. Använd filter och map tillsammans!
 
 let people2 = [
