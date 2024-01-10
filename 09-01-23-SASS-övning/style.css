@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Roboto+Condensed:wght@300&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html {
+    @include respond(tab-land) {
+        font-size: 56.25%;
+    }
+
+    @include respond(tab-port) {
+        font-size: 50%;
+    }
+
+    @include respond(big-desktop) {
+        font-size: 75%;
+    }
+} */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 10vh;
+}
+header .logo {
+  margin-left: 2rem;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+header nav ul li {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+header nav ul li a {
+  color: black;
+}
+header button {
+  width: 10rem;
+  height: 2rem;
+  border: 1px black solid;
+  border-radius: 0.3rem;
+  margin-right: 2rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+main .maincontainer {
+  height: 90vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+main .maincontainer h1 {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 3rem;
+}
+main .maincontainer p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+}
+main .maincontainer .buttons {
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+}
+main .maincontainer .phone {
+  margin-bottom: -0.3rem;
+}
+
+/*# sourceMappingURL=style.css.map */

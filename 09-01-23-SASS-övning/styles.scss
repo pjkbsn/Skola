@@ -1,0 +1,88 @@
+@import "./base/base";
+@import "./abstract/abstract";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Roboto+Condensed:wght@300&display=swap');
+
+// body {
+//     height: 100vh;
+//     width: 100vw;
+// }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-primary-background;
+    height: 10vh;
+
+    // margin-top: 2rem;
+    // margin-left: 2rem;
+    // margin-left: 2rem;
+    .logo {
+        margin-left: 2rem;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+
+        li {
+            margin-left: 2rem;
+            margin-right: 2rem;
+
+            a {
+                color: $color-primary-text;
+            }
+        }
+    }
+
+    button {
+        width: 10rem;
+        height: 2rem;
+        border: 1px black solid;
+        border-radius: .3rem;
+        margin-right: 2rem;
+
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+    .maincontainer {
+        height: 90vh;
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $color-primary-background;
+
+        h1 {
+            color: $color-primary-text;
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 3rem;
+        }
+
+        p {
+            color: $color-primary-text-opacity;
+            font-size: 1rem;
+            text-align: center;
+            font-family: 'Fira Sans', sans-serif;
+        }
+
+        .buttons {
+            width: 20vw;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .phone {
+            margin-bottom: -.3rem;
+        }
+    }
+}
